@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
-//ne he
+//ne he2
 
 namespace QuanLyNhanSuFPT_PhamThiTuyetLan
 {
