@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
+//ne he
 
 namespace QuanLyNhanSuFPT_PhamThiTuyetLan
 {
