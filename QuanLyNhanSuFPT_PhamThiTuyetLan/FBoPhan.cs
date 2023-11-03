@@ -11,7 +11,9 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.IO;
 using System.Windows.Forms;
-
+/// <summary>
+/// test ne
+/// </summary>
 namespace QuanLyNhanSuFPT_PhamThiTuyetLan
 {
     public partial class FBoPhan : Form
