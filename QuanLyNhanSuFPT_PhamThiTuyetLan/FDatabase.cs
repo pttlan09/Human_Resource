@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 
 //ne he2
+//ne he1
+
 
 namespace QuanLyNhanSuFPT_PhamThiTuyetLan
 {
