@@ -67,7 +67,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cbMaNV.Margin = new System.Windows.Forms.Padding(6);
             this.cbMaNV.Name = "cbMaNV";
             this.cbMaNV.Size = new System.Drawing.Size(286, 30);
-            this.cbMaNV.TabIndex = 342;
+            this.cbMaNV.TabIndex = 0;
             this.cbMaNV.SelectedIndexChanged += new System.EventHandler(this.cbMaNV_SelectedIndexChanged);
             // 
             // dateTimePickerBD
@@ -78,7 +78,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.dateTimePickerBD.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePickerBD.Name = "dateTimePickerBD";
             this.dateTimePickerBD.Size = new System.Drawing.Size(286, 30);
-            this.dateTimePickerBD.TabIndex = 337;
+            this.dateTimePickerBD.TabIndex = 2;
             // 
             // label2
             // 
@@ -101,7 +101,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtHoten.Margin = new System.Windows.Forms.Padding(4);
             this.txtHoten.Name = "txtHoten";
             this.txtHoten.Size = new System.Drawing.Size(286, 30);
-            this.txtHoten.TabIndex = 338;
+            this.txtHoten.TabIndex = 1;
             // 
             // lblTenNV
             // 
@@ -340,7 +340,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.dateTimePickerKT.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePickerKT.Name = "dateTimePickerKT";
             this.dateTimePickerKT.Size = new System.Drawing.Size(286, 30);
-            this.dateTimePickerKT.TabIndex = 347;
+            this.dateTimePickerKT.TabIndex = 3;
             // 
             // label1
             // 

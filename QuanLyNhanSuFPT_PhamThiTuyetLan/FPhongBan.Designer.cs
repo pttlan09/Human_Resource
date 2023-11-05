@@ -111,7 +111,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtghichu.Location = new System.Drawing.Point(218, 263);
             this.txtghichu.Name = "txtghichu";
             this.txtghichu.Size = new System.Drawing.Size(238, 32);
-            this.txtghichu.TabIndex = 74;
+            this.txtghichu.TabIndex = 4;
             // 
             // txtSDT
             // 
@@ -119,7 +119,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtSDT.Location = new System.Drawing.Point(218, 211);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(238, 32);
-            this.txtSDT.TabIndex = 73;
+            this.txtSDT.TabIndex = 3;
             // 
             // txtTenPB
             // 
@@ -127,7 +127,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtTenPB.Location = new System.Drawing.Point(218, 164);
             this.txtTenPB.Name = "txtTenPB";
             this.txtTenPB.Size = new System.Drawing.Size(238, 32);
-            this.txtTenPB.TabIndex = 72;
+            this.txtTenPB.TabIndex = 2;
             // 
             // txtMaPB
             // 
@@ -135,7 +135,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtMaPB.Location = new System.Drawing.Point(218, 113);
             this.txtMaPB.Name = "txtMaPB";
             this.txtMaPB.Size = new System.Drawing.Size(238, 32);
-            this.txtMaPB.TabIndex = 71;
+            this.txtMaPB.TabIndex = 1;
             // 
             // lblTieuDe
             // 
@@ -157,7 +157,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cbbophan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbophan.Name = "cbbophan";
             this.cbbophan.Size = new System.Drawing.Size(238, 30);
-            this.cbbophan.TabIndex = 294;
+            this.cbbophan.TabIndex = 0;
             // 
             // label1
             // 

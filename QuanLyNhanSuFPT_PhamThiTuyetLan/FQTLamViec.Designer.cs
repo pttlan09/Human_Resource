@@ -33,6 +33,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.cbMaNV = new System.Windows.Forms.ComboBox();
             this.cbomabophan = new System.Windows.Forms.ComboBox();
             this.cbomacapbac = new System.Windows.Forms.ComboBox();
@@ -66,7 +67,6 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.MaBP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaPB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaCB = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
@@ -104,6 +104,19 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.panel1.Size = new System.Drawing.Size(1223, 806);
             this.panel1.TabIndex = 0;
             // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.LightCyan;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label2.Location = new System.Drawing.Point(375, 4);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(393, 27);
+            this.label2.TabIndex = 293;
+            this.label2.Text = "THÔNG TIN QUÁ TRÌNH LÀM VIỆC";
+            // 
             // cbMaNV
             // 
             this.cbMaNV.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -113,7 +126,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cbMaNV.Margin = new System.Windows.Forms.Padding(4);
             this.cbMaNV.Name = "cbMaNV";
             this.cbMaNV.Size = new System.Drawing.Size(254, 30);
-            this.cbMaNV.TabIndex = 292;
+            this.cbMaNV.TabIndex = 0;
             this.cbMaNV.SelectedIndexChanged += new System.EventHandler(this.cbMaNV_SelectedIndexChanged);
             // 
             // cbomabophan
@@ -125,7 +138,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cbomabophan.Margin = new System.Windows.Forms.Padding(4);
             this.cbomabophan.Name = "cbomabophan";
             this.cbomabophan.Size = new System.Drawing.Size(254, 30);
-            this.cbomabophan.TabIndex = 284;
+            this.cbomabophan.TabIndex = 5;
             // 
             // cbomacapbac
             // 
@@ -136,7 +149,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cbomacapbac.Margin = new System.Windows.Forms.Padding(4);
             this.cbomacapbac.Name = "cbomacapbac";
             this.cbomacapbac.Size = new System.Drawing.Size(254, 30);
-            this.cbomacapbac.TabIndex = 285;
+            this.cbomacapbac.TabIndex = 7;
             // 
             // cbomaphong
             // 
@@ -147,7 +160,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cbomaphong.Margin = new System.Windows.Forms.Padding(4);
             this.cbomaphong.Name = "cbomaphong";
             this.cbomaphong.Size = new System.Drawing.Size(254, 30);
-            this.cbomaphong.TabIndex = 286;
+            this.cbomaphong.TabIndex = 6;
             // 
             // lblMaBP
             // 
@@ -199,7 +212,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtLuongCB.Location = new System.Drawing.Point(728, 44);
             this.txtLuongCB.Name = "txtLuongCB";
             this.txtLuongCB.Size = new System.Drawing.Size(254, 30);
-            this.txtLuongCB.TabIndex = 287;
+            this.txtLuongCB.TabIndex = 4;
             // 
             // btnthemmoi
             // 
@@ -226,7 +239,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtTen.Location = new System.Drawing.Point(232, 71);
             this.txtTen.Name = "txtTen";
             this.txtTen.Size = new System.Drawing.Size(254, 30);
-            this.txtTen.TabIndex = 280;
+            this.txtTen.TabIndex = 1;
             // 
             // btnreport
             // 
@@ -310,7 +323,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.dateTimePickerngayvaolam.Location = new System.Drawing.Point(232, 150);
             this.dateTimePickerngayvaolam.Name = "dateTimePickerngayvaolam";
             this.dateTimePickerngayvaolam.Size = new System.Drawing.Size(254, 30);
-            this.dateTimePickerngayvaolam.TabIndex = 259;
+            this.dateTimePickerngayvaolam.TabIndex = 3;
             // 
             // label1
             // 
@@ -368,7 +381,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtEmail.Location = new System.Drawing.Point(231, 109);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(254, 30);
-            this.txtEmail.TabIndex = 262;
+            this.txtEmail.TabIndex = 2;
             // 
             // txt_timkiem
             // 
@@ -516,19 +529,6 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.MaCB.MinimumWidth = 6;
             this.MaCB.Name = "MaCB";
             this.MaCB.ReadOnly = true;
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.LightCyan;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.Location = new System.Drawing.Point(375, 4);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(393, 27);
-            this.label2.TabIndex = 293;
-            this.label2.Text = "THÔNG TIN QUÁ TRÌNH LÀM VIỆC";
             // 
             // FQTLamViec
             // 

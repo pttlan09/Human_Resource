@@ -73,7 +73,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cbMaNV.Margin = new System.Windows.Forms.Padding(4);
             this.cbMaNV.Name = "cbMaNV";
             this.cbMaNV.Size = new System.Drawing.Size(217, 30);
-            this.cbMaNV.TabIndex = 316;
+            this.cbMaNV.TabIndex = 1;
             // 
             // lblLuongCB
             // 
@@ -92,7 +92,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtghichu.Location = new System.Drawing.Point(733, 109);
             this.txtghichu.Name = "txtghichu";
             this.txtghichu.Size = new System.Drawing.Size(219, 30);
-            this.txtghichu.TabIndex = 311;
+            this.txtghichu.TabIndex = 5;
             // 
             // btnthemmoi
             // 
@@ -332,7 +332,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtMaHD.Location = new System.Drawing.Point(231, 40);
             this.txtMaHD.Name = "txtMaHD";
             this.txtMaHD.Size = new System.Drawing.Size(217, 30);
-            this.txtMaHD.TabIndex = 318;
+            this.txtMaHD.TabIndex = 0;
             // 
             // lblTenNV
             // 
@@ -354,7 +354,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.dateTimePickerBD.Location = new System.Drawing.Point(733, 40);
             this.dateTimePickerBD.Name = "dateTimePickerBD";
             this.dateTimePickerBD.Size = new System.Drawing.Size(219, 30);
-            this.dateTimePickerBD.TabIndex = 320;
+            this.dateTimePickerBD.TabIndex = 3;
             // 
             // label2
             // 
@@ -374,7 +374,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.dateTimePickerKT.Location = new System.Drawing.Point(733, 73);
             this.dateTimePickerKT.Name = "dateTimePickerKT";
             this.dateTimePickerKT.Size = new System.Drawing.Size(219, 30);
-            this.dateTimePickerKT.TabIndex = 322;
+            this.dateTimePickerKT.TabIndex = 4;
             // 
             // label3
             // 
@@ -423,7 +423,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cboLoaiHD.Margin = new System.Windows.Forms.Padding(4);
             this.cboLoaiHD.Name = "cboLoaiHD";
             this.cboLoaiHD.Size = new System.Drawing.Size(217, 30);
-            this.cboLoaiHD.TabIndex = 324;
+            this.cboLoaiHD.TabIndex = 2;
             // 
             // label4
             // 

@@ -45,7 +45,8 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             dr.Close();
 
         }
-
+       // public void txtghichu(object sender, KeyEventArgs e)
+       
         private void btnSua_Click(object sender, EventArgs e)
         {
             try
@@ -208,5 +209,13 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             da.Fill(tk);
             dgv.DataSource = tk;
         }
+
+        //private void txtghichu_KeyDown(object sender, KeyEventArgs e)
+        //{
+        //    if(e.KeyCode==Keys.Control+Keys.S)
+        //    {
+        //        btnLuu.PerformClick();
+        //    }    
+        //}
     }
 }

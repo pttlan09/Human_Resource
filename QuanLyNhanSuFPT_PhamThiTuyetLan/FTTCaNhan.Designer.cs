@@ -214,7 +214,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtPW1.Location = new System.Drawing.Point(22, 177);
             this.txtPW1.Name = "txtPW1";
             this.txtPW1.Size = new System.Drawing.Size(326, 27);
-            this.txtPW1.TabIndex = 13;
+            this.txtPW1.TabIndex = 2;
             this.txtPW1.UseSystemPasswordChar = true;
             // 
             // txtPWMoi
@@ -224,7 +224,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtPWMoi.Location = new System.Drawing.Point(22, 115);
             this.txtPWMoi.Name = "txtPWMoi";
             this.txtPWMoi.Size = new System.Drawing.Size(326, 27);
-            this.txtPWMoi.TabIndex = 12;
+            this.txtPWMoi.TabIndex = 1;
             this.txtPWMoi.UseSystemPasswordChar = true;
             // 
             // txtPWCu
@@ -234,7 +234,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtPWCu.Location = new System.Drawing.Point(22, 50);
             this.txtPWCu.Name = "txtPWCu";
             this.txtPWCu.Size = new System.Drawing.Size(326, 27);
-            this.txtPWCu.TabIndex = 11;
+            this.txtPWCu.TabIndex = 0;
             this.txtPWCu.UseSystemPasswordChar = true;
             // 
             // label2

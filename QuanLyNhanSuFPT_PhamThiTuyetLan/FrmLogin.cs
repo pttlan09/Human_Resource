@@ -25,6 +25,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
         SqlDataReader dr;
 
         ClassKetNoi data = new ClassKetNoi();
+       
         public FrmLogin()
         {
             InitializeComponent();
@@ -112,6 +113,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
                 comboBox1.Items.Add(filterInfo.Name);
             comboBox1.SelectedIndex = 0;
             //  captureDevice.Start();
+            this.ActiveControl = txtuser;
 
         }
         //03.11 
@@ -168,6 +170,14 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
 
 
             Process.Start(url); // Thực hiện mở URL trên trình duyệt.
+        }
+
+        private void txtpass_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnlogin.PerformClick();
+            }
         }
 
 

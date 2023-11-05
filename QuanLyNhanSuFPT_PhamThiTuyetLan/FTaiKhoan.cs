@@ -15,7 +15,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
 {
     public partial class FTaiKhoan : Form
     {
-        SqlConnection conn = new SqlConnection(@"Data Source = MSLAN\SQLEXPRESS; Initial Catalog = TN_QuanLyNhanSu; Integrated Security = True;");
+        SqlConnection conn = new SqlConnection(@"Data Source = GS-LANPTT13\SQLEXPRESS; Initial Catalog = TN_QuanLyNhanSu; Integrated Security = True;");
         SqlCommand cmd;
         SqlDataReader dr;
 
@@ -182,7 +182,8 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             barcodew.Format = BarcodeFormat.QR_CODE;
             //     SaveFileDialog dlg = new SaveFileDialog();
             //burn dât into qr
-            barcodew.Write(qrData).Save(@"D:\Lan\KLTN_PhamThiTuyetLan\Chương Trình\QuanLyNhanSuFPT_PhamThiTuyetLan\QuanLyNhanSuFPT_PhamThiTuyetLan\Resources\QRCode\"+qrImageFileName+".png");
+         //   barcodew.Write(qrData).Save(@"D:\Lan\KLTN_PhamThiTuyetLan\Chương Trình\QuanLyNhanSuFPT_PhamThiTuyetLan\QuanLyNhanSuFPT_PhamThiTuyetLan\Resources\QRCode\"+qrImageFileName+".png");
+            barcodew.Write(qrData).Save(@"D:\Lan\Learns\1921006722_PhamThiTuyetLan\2.Chương trình\QuanLyNhanSuFPT_PhamThiTuyetLan\QuanLyNhanSuFPT_PhamThiTuyetLan\Resources\QRCode\" + qrImageFileName+".png");
 
 
             try
@@ -282,9 +283,6 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             dgv.Rows[e.RowIndex].Cells["STT"].Value = e.RowIndex + 1;
         }
 
-        private void lblTieuDe_Click(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }

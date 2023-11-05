@@ -66,7 +66,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.dateTimePickerNgayCap.Location = new System.Drawing.Point(186, 191);
             this.dateTimePickerNgayCap.Name = "dateTimePickerNgayCap";
             this.dateTimePickerNgayCap.Size = new System.Drawing.Size(322, 33);
-            this.dateTimePickerNgayCap.TabIndex = 137;
+            this.dateTimePickerNgayCap.TabIndex = 4;
             // 
             // cboMaNv
             // 
@@ -76,7 +76,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cboMaNv.Location = new System.Drawing.Point(188, 48);
             this.cboMaNv.Name = "cboMaNv";
             this.cboMaNv.Size = new System.Drawing.Size(322, 33);
-            this.cboMaNv.TabIndex = 136;
+            this.cboMaNv.TabIndex = 0;
             // 
             // label1
             // 
@@ -128,7 +128,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtLoaiBH.Location = new System.Drawing.Point(186, 146);
             this.txtLoaiBH.Name = "txtLoaiBH";
             this.txtLoaiBH.Size = new System.Drawing.Size(322, 32);
-            this.txtLoaiBH.TabIndex = 131;
+            this.txtLoaiBH.TabIndex = 3;
             // 
             // lblTieuDe
             // 
@@ -242,7 +242,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txt_timkiem.Multiline = true;
             this.txt_timkiem.Name = "txt_timkiem";
             this.txt_timkiem.Size = new System.Drawing.Size(201, 27);
-            this.txt_timkiem.TabIndex = 260;
+            this.txt_timkiem.TabIndex = 5;
             this.txt_timkiem.TextChanged += new System.EventHandler(this.txt_timkiem_TextChanged);
             // 
             // lbl_timkiem
@@ -265,7 +265,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.rdkoTGia.Margin = new System.Windows.Forms.Padding(4);
             this.rdkoTGia.Name = "rdkoTGia";
             this.rdkoTGia.Size = new System.Drawing.Size(163, 28);
-            this.rdkoTGia.TabIndex = 264;
+            this.rdkoTGia.TabIndex = 2;
             this.rdkoTGia.Text = "Không tham gia";
             this.rdkoTGia.UseVisualStyleBackColor = true;
             // 
@@ -278,7 +278,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.rdTgia.Margin = new System.Windows.Forms.Padding(4);
             this.rdTgia.Name = "rdTgia";
             this.rdTgia.Size = new System.Drawing.Size(110, 28);
-            this.rdTgia.TabIndex = 263;
+            this.rdTgia.TabIndex = 1;
             this.rdTgia.TabStop = true;
             this.rdTgia.Text = "Tham gia";
             this.rdTgia.UseVisualStyleBackColor = true;

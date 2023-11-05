@@ -68,7 +68,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.dateTimePickerNgayTG.Location = new System.Drawing.Point(212, 189);
             this.dateTimePickerNgayTG.Name = "dateTimePickerNgayTG";
             this.dateTimePickerNgayTG.Size = new System.Drawing.Size(212, 33);
-            this.dateTimePickerNgayTG.TabIndex = 141;
+            this.dateTimePickerNgayTG.TabIndex = 3;
             // 
             // lblngaythamgia
             // 
@@ -120,7 +120,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txttyle.Location = new System.Drawing.Point(212, 234);
             this.txttyle.Name = "txttyle";
             this.txttyle.Size = new System.Drawing.Size(212, 32);
-            this.txttyle.TabIndex = 134;
+            this.txttyle.TabIndex = 4;
             // 
             // txtLoaiThue
             // 
@@ -128,7 +128,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtLoaiThue.Location = new System.Drawing.Point(212, 146);
             this.txtLoaiThue.Name = "txtLoaiThue";
             this.txtLoaiThue.Size = new System.Drawing.Size(212, 32);
-            this.txtLoaiThue.TabIndex = 133;
+            this.txtLoaiThue.TabIndex = 2;
             // 
             // txtMaSoThue
             // 
@@ -136,7 +136,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtMaSoThue.Location = new System.Drawing.Point(212, 55);
             this.txtMaSoThue.Name = "txtMaSoThue";
             this.txtMaSoThue.Size = new System.Drawing.Size(212, 32);
-            this.txtMaSoThue.TabIndex = 132;
+            this.txtMaSoThue.TabIndex = 0;
             // 
             // lblTieuDe
             // 
@@ -371,7 +371,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cboMaNv.Location = new System.Drawing.Point(212, 100);
             this.cboMaNv.Name = "cboMaNv";
             this.cboMaNv.Size = new System.Drawing.Size(212, 33);
-            this.cboMaNv.TabIndex = 268;
+            this.cboMaNv.TabIndex = 1;
             // 
             // lblMaNV
             // 

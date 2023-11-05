@@ -76,7 +76,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.textBox1.Location = new System.Drawing.Point(338, 167);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(378, 33);
-            this.textBox1.TabIndex = 45;
+            this.textBox1.TabIndex = 0;
             // 
             // label1
             // 
@@ -121,7 +121,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.btnChonRestore.Location = new System.Drawing.Point(741, 216);
             this.btnChonRestore.Name = "btnChonRestore";
             this.btnChonRestore.Size = new System.Drawing.Size(163, 41);
-            this.btnChonRestore.TabIndex = 41;
+            this.btnChonRestore.TabIndex = 2;
             this.btnChonRestore.Text = "Chọn";
             this.btnChonRestore.UseVisualStyleBackColor = false;
             this.btnChonRestore.Click += new System.EventHandler(this.btnChonRestore_Click);
@@ -132,7 +132,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtDuongDanRestore.Location = new System.Drawing.Point(338, 221);
             this.txtDuongDanRestore.Name = "txtDuongDanRestore";
             this.txtDuongDanRestore.Size = new System.Drawing.Size(378, 33);
-            this.txtDuongDanRestore.TabIndex = 40;
+            this.txtDuongDanRestore.TabIndex = 1;
             // 
             // lblDuongDanRestore
             // 
@@ -180,7 +180,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtServerName.Location = new System.Drawing.Point(351, 175);
             this.txtServerName.Name = "txtServerName";
             this.txtServerName.Size = new System.Drawing.Size(378, 33);
-            this.txtServerName.TabIndex = 38;
+            this.txtServerName.TabIndex = 0;
             // 
             // lblSN
             // 
@@ -226,7 +226,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.btnChonBakup.Location = new System.Drawing.Point(744, 227);
             this.btnChonBakup.Name = "btnChonBakup";
             this.btnChonBakup.Size = new System.Drawing.Size(155, 43);
-            this.btnChonBakup.TabIndex = 34;
+            this.btnChonBakup.TabIndex = 2;
             this.btnChonBakup.Text = "Chọn";
             this.btnChonBakup.UseVisualStyleBackColor = false;
             this.btnChonBakup.Click += new System.EventHandler(this.btnChonBakup_Click);
@@ -237,7 +237,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtDuongDanBakup.Location = new System.Drawing.Point(351, 233);
             this.txtDuongDanBakup.Name = "txtDuongDanBakup";
             this.txtDuongDanBakup.Size = new System.Drawing.Size(378, 33);
-            this.txtDuongDanBakup.TabIndex = 33;
+            this.txtDuongDanBakup.TabIndex = 1;
             // 
             // lblDuongDanBakup
             // 

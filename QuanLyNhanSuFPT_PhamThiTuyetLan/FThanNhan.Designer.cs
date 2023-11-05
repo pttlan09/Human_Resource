@@ -76,7 +76,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtMaTN.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaTN.Name = "txtMaTN";
             this.txtMaTN.Size = new System.Drawing.Size(286, 30);
-            this.txtMaTN.TabIndex = 338;
+            this.txtMaTN.TabIndex = 0;
             // 
             // label1
             // 
@@ -104,7 +104,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cbogioitinh.Margin = new System.Windows.Forms.Padding(6);
             this.cbogioitinh.Name = "cbogioitinh";
             this.cbogioitinh.Size = new System.Drawing.Size(286, 30);
-            this.cbogioitinh.TabIndex = 323;
+            this.cbogioitinh.TabIndex = 4;
             // 
             // cbMaNV
             // 
@@ -115,7 +115,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cbMaNV.Margin = new System.Windows.Forms.Padding(6);
             this.cbMaNV.Name = "cbMaNV";
             this.cbMaNV.Size = new System.Drawing.Size(286, 30);
-            this.cbMaNV.TabIndex = 336;
+            this.cbMaNV.TabIndex = 1;
             // 
             // dateTimePickerngaysinh
             // 
@@ -125,7 +125,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.dateTimePickerngaysinh.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePickerngaysinh.Name = "dateTimePickerngaysinh";
             this.dateTimePickerngaysinh.Size = new System.Drawing.Size(286, 30);
-            this.dateTimePickerngaysinh.TabIndex = 324;
+            this.dateTimePickerngaysinh.TabIndex = 3;
             // 
             // label2
             // 
@@ -148,7 +148,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtHoten.Margin = new System.Windows.Forms.Padding(4);
             this.txtHoten.Name = "txtHoten";
             this.txtHoten.Size = new System.Drawing.Size(286, 30);
-            this.txtHoten.TabIndex = 325;
+            this.txtHoten.TabIndex = 2;
             // 
             // lblTenNV
             // 
@@ -205,7 +205,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtSDT.Margin = new System.Windows.Forms.Padding(4);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(286, 30);
-            this.txtSDT.TabIndex = 326;
+            this.txtSDT.TabIndex = 7;
             // 
             // lblquanhe
             // 
@@ -238,7 +238,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtCMND_CCCD.Margin = new System.Windows.Forms.Padding(4);
             this.txtCMND_CCCD.Name = "txtCMND_CCCD";
             this.txtCMND_CCCD.Size = new System.Drawing.Size(286, 30);
-            this.txtCMND_CCCD.TabIndex = 327;
+            this.txtCMND_CCCD.TabIndex = 5;
             // 
             // btnthemmoi
             // 
@@ -499,7 +499,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cbquanhe.Margin = new System.Windows.Forms.Padding(6);
             this.cbquanhe.Name = "cbquanhe";
             this.cbquanhe.Size = new System.Drawing.Size(286, 30);
-            this.cbquanhe.TabIndex = 347;
+            this.cbquanhe.TabIndex = 6;
             // 
             // label4
             // 

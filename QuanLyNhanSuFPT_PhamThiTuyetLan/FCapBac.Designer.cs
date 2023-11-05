@@ -90,6 +90,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtghichu.Name = "txtghichu";
             this.txtghichu.Size = new System.Drawing.Size(212, 32);
             this.txtghichu.TabIndex = 72;
+//            this.txtghichu.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtghichu_KeyDown);
             // 
             // lblMaCB
             // 

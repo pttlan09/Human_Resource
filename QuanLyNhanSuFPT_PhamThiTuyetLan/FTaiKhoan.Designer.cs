@@ -30,8 +30,8 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FTaiKhoan));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.txttenDangNhap = new System.Windows.Forms.TextBox();
             this.cboQuyen = new System.Windows.Forms.ComboBox();
             this.lblQuyen = new System.Windows.Forms.Label();
@@ -67,7 +67,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txttenDangNhap.Margin = new System.Windows.Forms.Padding(4);
             this.txttenDangNhap.Name = "txttenDangNhap";
             this.txttenDangNhap.Size = new System.Drawing.Size(290, 33);
-            this.txttenDangNhap.TabIndex = 143;
+            this.txttenDangNhap.TabIndex = 0;
             // 
             // cboQuyen
             // 
@@ -81,7 +81,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cboQuyen.Margin = new System.Windows.Forms.Padding(4);
             this.cboQuyen.Name = "cboQuyen";
             this.cboQuyen.Size = new System.Drawing.Size(290, 33);
-            this.cboQuyen.TabIndex = 142;
+            this.cboQuyen.TabIndex = 3;
             // 
             // lblQuyen
             // 
@@ -126,7 +126,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtMatMa.Margin = new System.Windows.Forms.Padding(4);
             this.txtMatMa.Name = "txtMatMa";
             this.txtMatMa.Size = new System.Drawing.Size(290, 33);
-            this.txtMatMa.TabIndex = 138;
+            this.txtMatMa.TabIndex = 1;
             // 
             // lblTieuDe
             // 
@@ -139,7 +139,6 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.lblTieuDe.Size = new System.Drawing.Size(257, 25);
             this.lblTieuDe.TabIndex = 137;
             this.lblTieuDe.Text = "THÔNG TIN TÀI KHOẢN";
-            this.lblTieuDe.Click += new System.EventHandler(this.lblTieuDe_Click);
             // 
             // btnLuu
             // 
@@ -197,14 +196,14 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv.ColumnHeadersHeight = 29;
             this.dgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.STT,
@@ -220,14 +219,14 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.dgv.Name = "dgv";
             this.dgv.ReadOnly = true;
             this.dgv.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv.RowHeadersWidth = 51;
             this.dgv.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgv.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.SystemColors.WindowText;
@@ -331,7 +330,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cbMaNV.Margin = new System.Windows.Forms.Padding(6);
             this.cbMaNV.Name = "cbMaNV";
             this.cbMaNV.Size = new System.Drawing.Size(290, 30);
-            this.cbMaNV.TabIndex = 294;
+            this.cbMaNV.TabIndex = 2;
             // 
             // label1
             // 

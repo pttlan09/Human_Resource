@@ -269,7 +269,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtlydo.Location = new System.Drawing.Point(247, 162);
             this.txtlydo.Name = "txtlydo";
             this.txtlydo.Size = new System.Drawing.Size(212, 32);
-            this.txtlydo.TabIndex = 296;
+            this.txtlydo.TabIndex = 3;
             // 
             // dateTimePickerNgayphat
             // 
@@ -278,7 +278,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.dateTimePickerNgayphat.Location = new System.Drawing.Point(247, 81);
             this.dateTimePickerNgayphat.Name = "dateTimePickerNgayphat";
             this.dateTimePickerNgayphat.Size = new System.Drawing.Size(212, 33);
-            this.dateTimePickerNgayphat.TabIndex = 303;
+            this.dateTimePickerNgayphat.TabIndex = 1;
             // 
             // cboMaNv
             // 
@@ -288,7 +288,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.cboMaNv.Location = new System.Drawing.Point(248, 42);
             this.cboMaNv.Name = "cboMaNv";
             this.cboMaNv.Size = new System.Drawing.Size(212, 33);
-            this.cboMaNv.TabIndex = 302;
+            this.cboMaNv.TabIndex = 0;
             // 
             // lblTienThuong
             // 
@@ -307,7 +307,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtTienphat.Location = new System.Drawing.Point(247, 124);
             this.txtTienphat.Name = "txtTienphat";
             this.txtTienphat.Size = new System.Drawing.Size(212, 32);
-            this.txtTienphat.TabIndex = 300;
+            this.txtTienphat.TabIndex = 2;
             // 
             // lbllydo
             // 

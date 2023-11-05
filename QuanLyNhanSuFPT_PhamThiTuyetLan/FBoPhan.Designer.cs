@@ -65,7 +65,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.dateTimePickerNgayThanhLap.Location = new System.Drawing.Point(201, 158);
             this.dateTimePickerNgayThanhLap.Name = "dateTimePickerNgayThanhLap";
             this.dateTimePickerNgayThanhLap.Size = new System.Drawing.Size(238, 33);
-            this.dateTimePickerNgayThanhLap.TabIndex = 167;
+            this.dateTimePickerNgayThanhLap.TabIndex = 2;
             // 
             // lblghichu
             // 
@@ -117,7 +117,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtghichu.Location = new System.Drawing.Point(201, 213);
             this.txtghichu.Name = "txtghichu";
             this.txtghichu.Size = new System.Drawing.Size(238, 32);
-            this.txtghichu.TabIndex = 162;
+            this.txtghichu.TabIndex = 3;
             // 
             // txtTenBP
             // 
@@ -125,7 +125,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtTenBP.Location = new System.Drawing.Point(201, 114);
             this.txtTenBP.Name = "txtTenBP";
             this.txtTenBP.Size = new System.Drawing.Size(238, 32);
-            this.txtTenBP.TabIndex = 161;
+            this.txtTenBP.TabIndex = 1;
             // 
             // txtMaBP
             // 
@@ -133,7 +133,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtMaBP.Location = new System.Drawing.Point(201, 63);
             this.txtMaBP.Name = "txtMaBP";
             this.txtMaBP.Size = new System.Drawing.Size(238, 32);
-            this.txtMaBP.TabIndex = 160;
+            this.txtMaBP.TabIndex = 0;
             // 
             // lblTieuDe
             // 

@@ -75,6 +75,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtpass.TabIndex = 4;
             this.txtpass.Text = "Mật khẩu";
             this.txtpass.Click += new System.EventHandler(this.txtpass_Click);
+            this.txtpass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtpass_KeyDown);
             // 
             // chkghinho
             // 
@@ -159,7 +160,6 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.DoubleBuffered = true;
             this.Name = "FrmLogin";
             this.Text = "FrmLogin";
-//            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmLogin_FormClosing);
             this.Load += new System.EventHandler(this.FrmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pic)).EndInit();
             this.ResumeLayout(false);

@@ -300,33 +300,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             dgv.Rows[e.RowIndex].Cells["STT"].Value = e.RowIndex + 1;
         }
 
-        private void dgv_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            txtMaNv.Text = dgv.SelectedRows[0].Cells["MaNV"].Value.ToString();
-            txtMaNv.ReadOnly = true; // không cho sửa mã
-            txtTen.Text = dgv.SelectedRows[0].Cells["TenNV"].Value.ToString();
-            dateTimePickerngaysinh.Text = dgv.SelectedRows[0].Cells["NgaySinh"].Value.ToString();
-            cbogioitinh.Text = dgv.SelectedRows[0].Cells["GioiTinh"].Value.ToString();
-            txtdanToc.Text = dgv.SelectedRows[0].Cells["DanToc"].Value.ToString();
-            txtCMND_CCCD.Text = dgv.SelectedRows[0].Cells["CMND_CCCD"].Value.ToString();
-            txtEmail.Text = dgv.SelectedRows[0].Cells["Email"].Value.ToString();
-            txtDiaChi.Text = dgv.SelectedRows[0].Cells["DiaChi"].Value.ToString();
-
-            txtSDT.Text = dgv.SelectedRows[0].Cells["SDT"].Value.ToString();
-            txtAnhSanPham.Text = dgv.SelectedRows[0].Cells["Hinh"].Value.ToString();
-
-            //Chọn giá trị combobox Tình trạng nếu giá trị combobox = giá trị lưu trong csdl
-            foreach (var item in cbogioitinh.Items)
-                if ((string)item == dgv.SelectedRows[0].Cells["GioiTinh"].Value.ToString())
-                    cbogioitinh.SelectedItem = item;
-
-            //load hình ảnh
-            if (dgv.SelectedRows[0].Cells["Hinh"].Value.ToString() != "")
-                picEmp.Image = Image.FromFile(dgv.SelectedRows[0].Cells["Hinh"].Value.ToString());
-            else
-                picEmp.Image = null;//ảnh mặc định
-
-        }
+       
 
         private void btnreport_Click(object sender, EventArgs e)
         {
@@ -367,5 +341,31 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             dgv.DataSource = tk;
         }
 
+        private void dgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtMaNv.Text = dgv.SelectedRows[0].Cells["MaNV"].Value.ToString();
+            txtMaNv.ReadOnly = true; // không cho sửa mã
+            txtTen.Text = dgv.SelectedRows[0].Cells["TenNV"].Value.ToString();
+            dateTimePickerngaysinh.Text = dgv.SelectedRows[0].Cells["NgaySinh"].Value.ToString();
+            cbogioitinh.Text = dgv.SelectedRows[0].Cells["GioiTinh"].Value.ToString();
+            txtdanToc.Text = dgv.SelectedRows[0].Cells["DanToc"].Value.ToString();
+            txtCMND_CCCD.Text = dgv.SelectedRows[0].Cells["CMND_CCCD"].Value.ToString();
+            txtEmail.Text = dgv.SelectedRows[0].Cells["Email"].Value.ToString();
+            txtDiaChi.Text = dgv.SelectedRows[0].Cells["DiaChi"].Value.ToString();
+
+            txtSDT.Text = dgv.SelectedRows[0].Cells["SDT"].Value.ToString();
+            txtAnhSanPham.Text = dgv.SelectedRows[0].Cells["Hinh"].Value.ToString();
+
+            //Chọn giá trị combobox Tình trạng nếu giá trị combobox = giá trị lưu trong csdl
+            foreach (var item in cbogioitinh.Items)
+                if ((string)item == dgv.SelectedRows[0].Cells["GioiTinh"].Value.ToString())
+                    cbogioitinh.SelectedItem = item;
+
+            //load hình ảnh
+            if (dgv.SelectedRows[0].Cells["Hinh"].Value.ToString() != "")
+                picEmp.Image = Image.FromFile(dgv.SelectedRows[0].Cells["Hinh"].Value.ToString());
+            else
+                picEmp.Image = null;//ảnh mặc định
+        }
     }
 }
