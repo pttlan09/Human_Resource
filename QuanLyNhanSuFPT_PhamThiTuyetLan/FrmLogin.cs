@@ -117,13 +117,13 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
 
         }
         //03.11 
-        //private void FrmLogin_FormClosing(object sender, FormClosingEventArgs e)
-        //{
-        //    //
-        //    if (captureDevice.IsRunning)
-        //     captureDevice.Stop();
-            
-        //}
+        private void FrmLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //
+            if (captureDevice.IsRunning)
+                captureDevice.Stop();
+
+        }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
