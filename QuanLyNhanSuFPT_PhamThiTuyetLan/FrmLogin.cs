@@ -131,14 +131,17 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             {
                 BarcodeReader barcodeReader = new BarcodeReader();
                 Result result = barcodeReader.Decode((Bitmap)pic.Image);
-                if(result !=null)
+                
+                if (result !=null)
                 {
                     txtuser.Text = result.ToString();
                     timer1.Stop();
                     if (captureDevice.IsRunning)
                         captureDevice.Stop();
-                }    
+                }
+
             }
+        
             cmd = new SqlCommand("Select * from tblTaiKhoan where  TenDangNhap=@TenDangNhap", conn);
             cmd.Parameters.AddWithValue("@TenDangNhap", txtuser.Text);
             conn.Open();
@@ -182,12 +185,13 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
 
 
 
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-        //    //captureDevice = new VideoCaptureDevice(filterInfoCollection[comboBox1.SelectedIndex].MonikerString);
-        //    //captureDevice.NewFrame += captureDevice_NewFrame;
-        //    //captureDevice.Start();
-        //    //timer1.Start();
-        //}
+        private void button1_Click(object sender, EventArgs e)
+        {
+            captureDevice = new VideoCaptureDevice(filterInfoCollection[comboBox1.SelectedIndex].MonikerString);
+            captureDevice.NewFrame += captureDevice_NewFrame;
+            captureDevice.Start();
+            timer1.Start();
+            captureDevice.Stop();
+        }
     }
 }

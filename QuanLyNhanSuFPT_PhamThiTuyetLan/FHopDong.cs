@@ -39,7 +39,8 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
         }
         private void LoadData()
         {
-            var sql = "Select MaHD,MaNV,LoaiHD,NgayBD,NgayKT,GhiChu  from tblHopDong order by NgayBD asc  ";
+            //var sql = "Select MaHD,MaNV,LoaiHD,NgayBD,NgayKT,GhiChu  from tblHopDong order by NgayBD asc  ";
+            var sql = "Select MaHD,MaNV,LoaiHD,NgayBD,NgayKT,GhiChu  from tblHopDong ";
             var cmd = new SqlCommand(sql, DBConnect.Connect());
             var dr = cmd.ExecuteReader();
 

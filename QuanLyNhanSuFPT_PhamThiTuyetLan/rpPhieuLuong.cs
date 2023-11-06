@@ -12,7 +12,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
 {
     public partial class rpPhieuLuong : Form
     {
-        SqlConnection conn = new SqlConnection(@"Data Source = MSLAN\SQLEXPRESS; Initial Catalog = TN_QuanLyNhanSu; Integrated Security = True;");
+        SqlConnection conn = new SqlConnection(@"Data Source = GS-LANPTT13\SQLEXPRESS; Initial Catalog = TN_QuanLyNhanSu; Integrated Security = True;");
         SqlCommand cmd;
         SqlDataReader dr;
 
