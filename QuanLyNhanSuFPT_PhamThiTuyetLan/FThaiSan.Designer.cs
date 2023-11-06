@@ -269,7 +269,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(113, 33);
-            this.btnXoa.TabIndex = 254;
+            this.btnXoa.TabIndex = 3;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnXoa.UseVisualStyleBackColor = true;
@@ -288,7 +288,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.btnthemmoi.Margin = new System.Windows.Forms.Padding(4);
             this.btnthemmoi.Name = "btnthemmoi";
             this.btnthemmoi.Size = new System.Drawing.Size(112, 33);
-            this.btnthemmoi.TabIndex = 258;
+            this.btnthemmoi.TabIndex = 0;
             this.btnthemmoi.Text = "Thêm mới";
             this.btnthemmoi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnthemmoi.UseVisualStyleBackColor = true;
@@ -307,7 +307,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.btnSua.Margin = new System.Windows.Forms.Padding(4);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(115, 33);
-            this.btnSua.TabIndex = 255;
+            this.btnSua.TabIndex = 2;
             this.btnSua.Text = "Sửa";
             this.btnSua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSua.UseVisualStyleBackColor = true;
@@ -326,7 +326,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.btnLuu.Margin = new System.Windows.Forms.Padding(4);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(112, 33);
-            this.btnLuu.TabIndex = 256;
+            this.btnLuu.TabIndex = 1;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLuu.UseVisualStyleBackColor = true;

@@ -216,6 +216,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.txtPW1.Size = new System.Drawing.Size(326, 27);
             this.txtPW1.TabIndex = 2;
             this.txtPW1.UseSystemPasswordChar = true;
+            this.txtPW1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPW1_KeyDown);
             // 
             // txtPWMoi
             // 

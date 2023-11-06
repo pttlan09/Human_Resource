@@ -153,7 +153,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.btnLuu.Margin = new System.Windows.Forms.Padding(6);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(112, 49);
-            this.btnLuu.TabIndex = 145;
+            this.btnLuu.TabIndex = 2;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
@@ -171,7 +171,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.btnQRcode.Margin = new System.Windows.Forms.Padding(6);
             this.btnQRcode.Name = "btnQRcode";
             this.btnQRcode.Size = new System.Drawing.Size(104, 49);
-            this.btnQRcode.TabIndex = 144;
+            this.btnQRcode.TabIndex = 0;
             this.btnQRcode.Text = "QR Code";
             this.btnQRcode.UseVisualStyleBackColor = true;
             this.btnQRcode.Click += new System.EventHandler(this.btnQRcode_Click);
@@ -298,7 +298,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.btnXoa.Margin = new System.Windows.Forms.Padding(6);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(112, 49);
-            this.btnXoa.TabIndex = 219;
+            this.btnXoa.TabIndex = 4;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
@@ -316,7 +316,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.btnSua.Margin = new System.Windows.Forms.Padding(6);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(112, 49);
-            this.btnSua.TabIndex = 220;
+            this.btnSua.TabIndex = 3;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
@@ -372,7 +372,7 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             this.btnthemmoi.Margin = new System.Windows.Forms.Padding(6);
             this.btnthemmoi.Name = "btnthemmoi";
             this.btnthemmoi.Size = new System.Drawing.Size(137, 38);
-            this.btnthemmoi.TabIndex = 298;
+            this.btnthemmoi.TabIndex = 1;
             this.btnthemmoi.Text = "Thêm mới";
             this.btnthemmoi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnthemmoi.UseVisualStyleBackColor = true;

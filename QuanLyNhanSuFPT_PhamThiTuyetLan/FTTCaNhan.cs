@@ -107,5 +107,13 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
               
             }
         }
+
+        private void txtPW1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode==Keys.Enter)
+            {
+                btnDoiMatKhau.PerformClick();
+            }   
+        }
     }
 }

@@ -222,5 +222,15 @@ namespace QuanLyNhanSuFPT_PhamThiTuyetLan
             dgv.DataSource = tk;
         }
 
+        private void btnthemmoi_KeyDown(object sender, KeyEventArgs e)
+        {
+          
+
+                if (e.KeyCode == Keys.Enter)
+                {
+                    btnthemmoi.PerformClick();
+                }
+          
+        }
     }
 }
